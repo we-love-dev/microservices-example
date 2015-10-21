@@ -4,6 +4,8 @@
   "description": "Aplicação criada para a palestra de microserviços",
   "main": "app.js",
   "scripts": {
+    "prestart": "npm install",
+    "start": "node bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

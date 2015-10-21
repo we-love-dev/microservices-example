@@ -1,8 +1,8 @@
 var express = require('express')
   , mongoose = require('mongoose')
-  , db = require('./db-config')
+  , db = require('./conf/db-config')
   , bodyParser = require('body-parser')
-  , clientRoutes = require('./client-routes')
+  , clientRoutes = require('./modules/client-routes')
   , app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
