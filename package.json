@@ -1,0 +1,28 @@
+{
+  "name": "microservices-example",
+  "version": "1.0.0",
+  "description": "Aplicação criada para a palestra de microserviços",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/we-love-dev/microservices-example.git"
+  },
+  "keywords": [
+    "Palestra",
+    "Microservices"
+  ],
+  "author": "Renan Johannsen de Paula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/we-love-dev/microservices-example/issues"
+  },
+  "homepage": "https://github.com/we-love-dev/microservices-example#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.12"
+  }
+}
